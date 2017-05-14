@@ -1,0 +1,22 @@
+{
+  "name": "express-req-logger",
+  "version": "1.0.0",
+  "description": "HTTP request logger middleware for Express.",
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "HTTP",
+    "request",
+    "logger",
+    "middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengng/express-req-logger.git"
+  },
+  "author": {
+    "name": "pengng",
+    "email": "870788308@qq.com"
+  },
+  "license": "MIT"
+}
