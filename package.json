@@ -1,6 +1,6 @@
 {
   "name": "express-req-logger",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "HTTP request logger middleware for Express.",
   "main": "index.js",
   "keywords": [

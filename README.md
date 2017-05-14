@@ -40,22 +40,31 @@ Long style.
 
 #### :method
 HTTP request method. `GET`
+
 #### :url
 Request path. `/index.html`
+
 #### :httpVersion
 HTTP version number. `1.1`
+
 #### :status
 Request status code. `200`
+
 #### :duration
 Request to respond to the duration of the unit, in milliseconds. `263ms`
+
 #### :ip
 Remote client IP address. `::ffff:192.168.0.100`
+
 #### :date
 Current date. `2017-05-14`
+
 #### :time
 Current time. `19:00:00`
+
 #### :day
 Current week. `周日`
+
 #### :userAgent
 Remote client user agent content.
 
@@ -133,22 +142,31 @@ GET / 200
 
 #### :method
 HTTP请求方法。`GET`
+
 #### :url
 请求路径。`/index.html`
+
 #### :httpVersion
 HTTP版本。`1.1`
+
 #### :status
 请求状态码。`200`
+
 #### :duration
 请求到响应持续的时间，单位为毫秒。`263ms`
+
 #### :ip
 客户端IP地址。`::ffff:192.168.0.100`
+
 #### :date
 当前日期。`2017-05-14`,本项目首次提交时间。
+
 #### :time
 当前时间。`19:00:00`
+
 #### :day
 当前星期。`周日`
+
 #### :userAgent
 客户端用户代理内容。
 
