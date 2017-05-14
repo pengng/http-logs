@@ -19,6 +19,7 @@ app.use(logger());
 **logger(format, option)**
 
 The `format` argument is a string, either `'tiny'`,`'normal'`, `'long'`, or something like that `':method :url HTTP/:httpVersion :status :duration'`.
+
 ## `format`
 **normal** 
 Default style.
