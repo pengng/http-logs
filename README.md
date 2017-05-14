@@ -12,6 +12,7 @@ const logger = require('express-req-logger');
 var app = express();
 
 app.use(logger());
+
 // GET / HTTP/1.1 200 367ms
 ```
 ## API
@@ -86,6 +87,7 @@ app.use(logger(
   method: function (req, res) {
     return req.method.toLowerCase();
   }
+
 });
 
 // [2017-05-14 上午 10:22:29] get /index.html
@@ -178,6 +180,7 @@ app.use(logger(
   method: function (req, res) {
     return req.method.toLowerCase();
   }
+  
 });
 
 // [2017-05-14 上午 10:22:29] get /index.html
