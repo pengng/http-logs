@@ -1,4 +1,4 @@
-const moment = require('./moment');
+const dtime = require('time-formater');
 
 function Logger(str, option) {
 
@@ -22,16 +22,15 @@ function Logger(str, option) {
     },
 
     date: function () {
-      return moment().format('YYYY-MM-DD');
+      return dtime().format('YYYY-MM-DD');
     },
 
     time: function () {
-      return moment().format('HH:mm:ss');
+      return dtime().format('HH:mm:ss');
     },
 
     day: function () {
-      var str = '日一二三四五六';
-      return '周' + str[new Date().getDay()];
+      return dtime().format('ddd');
     },
 
     method: function (req) {
