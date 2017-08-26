@@ -1,22 +1,30 @@
 {
-  "name": "express-req-logger",
-  "version": "1.0.7",
-  "description": "HTTP request logger middleware for Express.",
+  "name": "http-logs",
+  "version": "0.0.1",
+  "description": "HTTP request logger middleware",
   "main": "index.js",
   "keywords": [
-    "express",
     "HTTP",
     "request",
-    "logger",
+    "log",
     "middleware"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pengng/express-req-logger.git"
+    "url": "git+https://github.com/pengng/http-logs.git"
   },
-  "author": "pengng",
-  "license": "MIT",
+  "author": "yupeng.kuo",
+  "license": "ISC",
   "dependencies": {
     "time-formater": "^1.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pengng/http-logs/issues"
+  },
+  "homepage": "https://github.com/pengng/http-logs#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
 }
